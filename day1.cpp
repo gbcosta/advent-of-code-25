@@ -5,7 +5,7 @@
 
 void day2() {
   std::ifstream file;
-  file.open("./inputs/d1.1.txt");
+  file.open("./inputs/d1.txt");
 
   int dialPosition{50};
   int r{0}, n{0};
@@ -33,7 +33,7 @@ void day2() {
 
 void day1() {
   std::ifstream file;
-  file.open("./inputs/t.txt");
+  file.open("./inputs/d1.txt");
 
   int dialPosition{50};
   int r{0}, n{0};
