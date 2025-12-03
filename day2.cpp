@@ -5,8 +5,6 @@
 #include <utility>
 #include <vector>
 
-#include <ranges>
-
 using ll = long long;
 
 using namespace std;
@@ -59,7 +57,7 @@ void day2() {
       }
     }
   }
-  cout << result << endl;
+  cout << result << '\n';
   file.close();
 }
 
